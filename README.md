@@ -40,3 +40,12 @@ Until the figma design is not ready, the basic task we expect to get completed i
 ## Why ?
 
 You get to contribute in a industry standard maintained repository. You get to learn how to work in a team and how to collaborate with other developers. You get to learn how to use git and github. You get to learn how to use react.js and vite.js. You get to learn how to use figma. You get to learn how to use tailwindcss. You get to learn how to use react-router-dom. react-hook-form. react-icons. react-toastify.
+
+## Looks
+
+The website looks somethings like this and changes will be made as we progress.
+![home](./assets/home.png)
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
