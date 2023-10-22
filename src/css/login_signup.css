@@ -1,0 +1,74 @@
+.main {
+	width: 100%;
+	align-items: center;
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.main-home {
+	padding: 10rem;
+	text-align: center;
+}
+.main-home h1 {
+	font-size: 8rem;
+	color: rgb(205, 246, 246);
+	font-family: "Courier New", Courier, monospace;
+}
+
+.container {
+	margin: 2em;
+	width: auto;
+	height: auto;
+	min-height: 500px;
+
+	min-width: 250px;
+	background: #2d2d2d;
+	background-image: radial-gradient(#4a4e44 7.2%, transparent 0);
+	background-size: 25px 25px;
+	border-radius: 20px;
+	box-shadow: 4px 3px 7px 2px #00000040;
+	padding: 1rem;
+	box-sizing: border-box;
+}
+
+.inputFields {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+input {
+	box-sizing: border-box;
+	background-color: transparent;
+	padding: 0.7rem;
+	border-bottom-right-radius: 15px 3px;
+	border-bottom-left-radius: 3px 15px;
+	border: solid 3px transparent;
+	border-bottom: dashed 3px #fdcb6e;
+	font-family: "Architects Daughter", cursive;
+	font-size: 1rem;
+	color: hsla(300, 3%, 94%, 0.7);
+	width: max-content;
+	margin-bottom: 20px;
+}
+.active-btn {
+	padding: 0;
+	border: none;
+	font-family: "Architects Daughter", cursive;
+	text-decoration: none;
+	padding-bottom: 3px;
+	border-radius: 20% 5% 20% 65%/35% 20% 25% 20%;
+	background-color: transparent;
+}
+.active-btn span {
+	display: block;
+	padding: 0.5rem 1rem;
+	border-radius: 20% 45% 20% 5%/5% 20% 25% 60%;
+	border: 2px solid hsl(198, 1%, 29%);
+	background-color: transparent;
+}
+.active-btn:hover {
+	border-radius: 20% 45% 20% 5%/5% 20% 25% 60%;
+	background-color: transparent;
+	border: 2px solid hsl(198, 1%, 29%);
+}
